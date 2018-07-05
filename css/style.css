@@ -1,0 +1,59 @@
+
+#pole{
+	position:absolute;
+}
+#ball{
+	width:20px;
+	height:20px;
+	border-radius:100%;
+	background-color:red;
+	position:relative;
+}
+#right_player{
+	width:9px;
+	height:70px;
+	background-color:green;
+	position:absolute;
+}
+#left_player{
+	width:9px;
+	height:70px;
+	background-color:green;
+	position:absolute;
+}
+#startButton{
+	width:100px;
+	height:30px;
+	background-color:gray;
+	position:absolute;
+	margin:140px 0px 0px 30%;
+	text-align:center;
+	padding-top:10px;
+	cursor:pointer;
+	float:left;
+}
+#score{
+	width:300px;
+	height:100px;
+	position:absolute;
+	margin:80px 0px 0px 45%;
+	float:left;
+}
+#leftScore{
+	width:45%;
+	height:93%;
+	float:left;
+	padding-top:7%;
+	text-align:right;
+	font-size:45px;
+}
+#leftScore:after{
+	content:":";
+}
+#rightScore{
+	width:45%;
+	height:93%;
+	float:left;
+	padding-top:7%;
+	font-size:45px;
+}
